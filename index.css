@@ -1,0 +1,135 @@
+.login-box{
+    width: 350px;
+    height: 450px;
+    position: relative;
+    left: 40rem;
+    top: 10rem;
+    border-style: solid;
+    border-width: 2px;
+    padding-left: 100px;
+    border-radius: 20px;
+
+}
+.login-username, .login-password{
+    margin: 40px 0px 40px 0px;
+}
+#username, #password{
+    width: 250px;
+    height: 30px;
+    border-style: solid;
+    border-radius: 5px;
+
+}
+#username, #password:focus{
+    border-color: green;
+}
+p{
+    font-weight: bold;
+}
+#login-button{
+    width: 250px;
+    height: 40px;
+    border-style: solid;
+    border-radius: 20px;
+    background-color: #0e8ef2;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+#login-button:hover{
+    background-color: green;
+}
+#login-button:active{
+    background-color: green;
+}
+
+.header-bar{
+    height: 6rem;
+    width: 103%;
+    background-color: #0e8ef2;
+    margin-left: -1%;
+    margin-top: -2%;
+    display: flex;
+    align-items: center;
+    padding-left: 3rem;
+}
+.logo{
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    color: white;
+}
+.body{
+    display: flex;
+}
+.left{
+    flex: 3;
+    background-color: rgba(121,121,121, 0.5);
+    height: 42rem;
+    margin-left: -1rem;
+}
+.center{
+    flex: 6;
+    padding: 2rem 2rem 2rem 3rem;
+    height: 42rem;
+    overflow-y: scroll;
+}
+.right{
+    flex: 3;
+    margin-right: -2rem;
+    background-color: rgba(121,121,121, 0.5);
+    height: 42rem;
+}
+li{
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.post {
+    border-style: solid;
+     border-width: 0.5px;
+     padding-left: 3rem;
+     border-radius: 50px;
+     border-color: whitesmoke;
+     background-color: rgba(121,121,121, 0.1);
+     margin-bottom: 1rem;
+}
+.post-user{
+    font-weight: bold;
+    width: 8rem;
+    margin: 1rem 0 1rem 0.5rem;
+}
+.post-content{
+    margin: 1rem 0 0rem 0.5rem;
+    width: 20rem;
+    height: 5rem;
+}
+.react{
+    display: flex;
+    width: 40rem;
+    justify-content: space-between;
+    padding: 0 0 0 0.5rem;
+    margin-bottom: 3rem;
+}
+.react>div{
+    border-style: solid;
+    border-width: 0.5px;
+    border-radius: 5px;
+    width: 10rem;
+    text-align: center;
+}
+.react>div:hover{
+    background-color: #0e8ef2;
+}
+.anh{
+    width: 20rem;
+    height: auto;
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    border-style: solid;
+    border-width: 0.5px;
+    width: 600px;
+}
+#error{
+    margin-top: 5px;
+    color: red;
+}
